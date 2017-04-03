@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <title>My Todo List</title>
+    <link rel="stylesheet" href="node_modules/normalize.css/normalize.css">
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="node_modules/jquery-datetimepicker/build/jquery.datetimepicker.min.css">
+</head>
+<body>
+<div class="container"><!-- 总容器开始 -->
+    <h1>我的Todo</h1>
+    <form class="add-task"><!-- 添加任务开始 -->
+        <input name="content"
+               type="text"
+               placeholder="e.g. 下午记得..."
+               autofocus
+               autocomplete="off"
+        >
+        <button type="submit">提交</button>
+    </form><!-- 添加任务结束 -->
+    <div class="task-list"><!-- 任务列表开始 -->
+    </div><!-- 任务列表结束 -->
+    <div class="task-detail-mask"></div><!-- 遮罩层 -->
+    <div class="task-detail"><!-- 任务详情开始 -->
+    </div><!-- 任务详情结束 -->
+</div><!-- 总容器结束 -->
+<script src="node_modules/jquery/dist/jquery.min.js"></script>
+<script src="node_modules/jquery-datetimepicker/build/jquery.datetimepicker.full.js"></script>
+<script src="node_modules/store/dist/store.legacy.min.js"></script>
+<script src="js/base.js"></script>
+</body>
+</html>

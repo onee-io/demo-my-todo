@@ -1,0 +1,17 @@
+{
+  "name": "MyTodo",
+  "version": "1.0.0",
+  "description": "Learn to JavaScript and jQuery demo.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "VOREVER 774274851@qq.com",
+  "license": "MIT",
+  "dependencies": {
+    "jquery": "^3.1.1",
+    "jquery-datetimepicker": "^2.5.4",
+    "normalize.css": "^5.0.0",
+    "store": "^2.0.1"
+  }
+}
